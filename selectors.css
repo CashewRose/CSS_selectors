@@ -1,0 +1,39 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+.disabled {
+    color:gray;
+}
+a .disabled {
+    color: purple;
+}
+.active {
+    color: yellow;
+}
+ul > a {
+    margin: 150px;
+}
+.color {
+    color: red;
+}
+.color ~ div {
+    color: blue;
+}
+.color + h4 {
+    background-color: red;
+}
+.color ~ div + h4{
+    background-color: blue;
+}
+.grandparent > h4{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.promo {
+    font-weight: bold;
+    color: goldenrod
+}
+span > input {
+    height: 25px;
+}
